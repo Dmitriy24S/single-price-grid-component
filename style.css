@@ -126,3 +126,31 @@ button:active {
 a:hover {
   opacity: 0.9;
 }
+/* desktop style */
+@media (min-width: 768px) {
+  body {
+    padding: 0 50px;
+  }
+  br {
+    display: block;
+  }
+  .card-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+    max-width: 650px;
+  }
+  .card {
+    padding: 35px;
+  }
+  .intro-card {
+    flex-basis: 100%;
+    padding-right: 30px;
+  }
+  .price-card {
+    flex-basis: 50%;
+  }
+  .info-card {
+    flex-basis: 50%;
+  }
+}
