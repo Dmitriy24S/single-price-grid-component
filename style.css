@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700;800");
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Karla", sans-serif;
+  background-color: hsl(204, 43%, 93%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+h1 {
+  margin-bottom: 20px;
+}
+h3 {
+  font-weight: 500;
+}
+h2,
+h3,
+p {
+  margin-bottom: 15px;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  border-radius: 5px;
+  margin: 27px auto 35px;
+  box-shadow: 0px 2px 20px 6px rgb(129 151 207 / 18%);
+  overflow: hidden;
+}
+.card {
+  padding: 25px;
+}
+/* intro card */
+.intro-card {
+  color: hsl(218, 22%, 67%);
+  background-color: #fff;
+}
+.intro-card br {
+  display: none;
+}
+.intro-card h1 {
+  color: hsl(179, 62%, 43%);
+  font-size: 1.2rem;
+}
+.intro-card h3 {
+  color: hsl(64deg 75% 52%);
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+.intro-card p {
+  line-height: 2;
+  font-size: 0.85rem;
+}
+/* price card */
+.price-card {
+  color: rgba(255, 255, 255, 0.829);
+  background-color: hsl(179, 62%, 43%);
+}
+.price {
+  color: rgb(255 255 255 / 56%);
+  font-weight: 300;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+.price strong {
+  color: #fff;
+  font-size: 2rem;
+  padding-right: 10px;
+}
+/* info card */
+.info-card {
+  color: #fff;
+  background-color: hsl(179, 62%, 46%);
+}
+.info-card p {
+  color: hsl(173deg 100% 96% / 71%);
+  line-height: 1.5;
+  font-weight: 300;
+  font-size: 0.9rem;
+  margin-bottom: 0;
+}
+.info-card li {
+  list-style-type: none;
+  line-height: 1.5;
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.829);
+}
+/* button */
+button {
+  color: rgba(255, 255, 255, 0.87);
+  background-color: hsl(71, 73%, 54%);
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 16px 4px rgb(118 118 118 / 37%);
+  font-family: inherit;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 13px;
+  margin-top: 13px;
+}
+button:hover {
+  background-color: hsl(71, 73%, 60%);
+  cursor: pointer;
+}
+button:active {
+  background-color: hsl(71, 73%, 50%);
+}
+/* footer */
+.attribution {
+  font-size: 0.7rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+a:hover {
+  opacity: 0.9;
+}
